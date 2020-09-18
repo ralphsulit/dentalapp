@@ -6,8 +6,8 @@ class App extends Component {
   render() {
     return (
       <div className='App'> 
-        <span style={{display: 'flex', justifyContent: 'flex-end', background: '#000'}} className="top-header f4 pa2 b gold">
-          <button href="#" className="pointer">0-000-000</button>
+        <span style={{display: 'flex', justifyContent: 'flex-end', background: '#dcdcdc'}} className="top-header f4 pa2">
+          <button href="#" className="top-header pointer gold">0-000-000</button>
         </span>
         <Navigation />
 
