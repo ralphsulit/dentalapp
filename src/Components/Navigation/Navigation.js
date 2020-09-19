@@ -7,12 +7,16 @@ const Navigation = () => {
       <div className="logo">
         <h4>Logo</h4>
       </div>
-      <ul>
+      <ul className="navbar">
         <li>
           <button className="link nav-btn">Home</button>
         </li>
         <li>
           <button className="link nav-btn">Home</button>
+          <ul className="dropmenu">
+            <li><button className="link nav-btn">drop</button></li>
+            <li><button className="link nav-btn">drop</button></li>
+          </ul>
         </li>
         <li>
           <button className="link nav-btn">Home</button>
